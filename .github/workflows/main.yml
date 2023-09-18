@@ -26,6 +26,6 @@ jobs:
           npm install;
 
     - name: Execyção do teste
-      run: mocha src/test/conver.js
+      run: mocha src/test/convert.js
       
         
