@@ -44,7 +44,7 @@ jobs:
         context: src
         file: src/Dockerfile
         push: true
-        tags:
+        tags:  |
           rafix998/aula-conversao-temperatura:${{github.run_number}}
           rafix998/aula-conversao-temperatura:latest
         
